@@ -1,0 +1,52 @@
+# 输出文件
+output/
+*.lisp
+
+# 日志文件
+*.log
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.bak
+
+# 环境变量文件（包含 API Keys）
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# 但保留示例文件
+!insight-generator.lisp
+!input/example_input.txt
+
+# Input 目录中的用户文件（可选）
+# input/*.txt
+# input/*.md
+
+input/.gitkeep
+input/20251028221818.txt
+input/20251031092735_optimized_v1.txt
+input/20251031092735_optimized_v2.txt
+input/20251031092735_optimized_v3.txt
+input/20251031092735.txt
+input/example_input.txt

@@ -1,0 +1,11 @@
+# LLM 客户端库（根据需要选择安装）
+
+# OpenAI（也用于 DeepSeek 等兼容 API）
+openai>=1.0.0
+
+# Anthropic Claude
+anthropic>=0.18.0
+
+# 其他依赖
+# 无其他必需依赖，Python 标准库即可
+
